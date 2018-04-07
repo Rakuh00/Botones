@@ -18,6 +18,9 @@ class ViewController: UIViewController {
         
         buttonOne.getStyle()
         buttonTwo.getStyle()
+        
+        buttonOne.setTitle("Aceptar", for: UIControlState.normal)
+        buttonTwo.setTitle("Cancelar", for: UIControlState.normal)
     }
 
     override func didReceiveMemoryWarning() {
