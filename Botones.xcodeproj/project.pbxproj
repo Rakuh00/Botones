@@ -14,6 +14,7 @@
 		8E9FED9020794A3000E302F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9FED8E20794A3000E302F1 /* LaunchScreen.storyboard */; };
 		8E9FED9B20794A3100E302F1 /* BotonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FED9A20794A3100E302F1 /* BotonesTests.swift */; };
 		8E9FEDA620794A3100E302F1 /* BotonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FEDA520794A3100E302F1 /* BotonesUITests.swift */; };
+		8E9FEDB62079508F00E302F1 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FEDB52079508F00E302F1 /* ButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8E9FEDA120794A3100E302F1 /* BotonesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BotonesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9FEDA520794A3100E302F1 /* BotonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotonesUITests.swift; sourceTree = "<group>"; };
 		8E9FEDA720794A3100E302F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9FEDB52079508F00E302F1 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,8 @@
 		8E9FED8420794A3000E302F1 /* Botones */ = {
 			isa = PBXGroup;
 			children = (
+				8E9FEDB420794F1400E302F1 /* Animations */,
+				8E9FEDB320794EF900E302F1 /* Extensions */,
 				8E9FED8520794A3000E302F1 /* AppDelegate.swift */,
 				8E9FED8720794A3000E302F1 /* ViewController.swift */,
 				8E9FED8920794A3000E302F1 /* Main.storyboard */,
@@ -123,6 +127,21 @@
 				8E9FEDA720794A3100E302F1 /* Info.plist */,
 			);
 			path = BotonesUITests;
+			sourceTree = "<group>";
+		};
+		8E9FEDB320794EF900E302F1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8E9FEDB52079508F00E302F1 /* ButtonExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8E9FEDB420794F1400E302F1 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9FEDB62079508F00E302F1 /* ButtonExtension.swift in Sources */,
 				8E9FED8820794A3000E302F1 /* ViewController.swift in Sources */,
 				8E9FED8620794A3000E302F1 /* AppDelegate.swift in Sources */,
 			);
@@ -427,7 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X98A4Z6A9P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Botones/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rakuhsapps.Botones;
@@ -442,7 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X98A4Z6A9P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Botones/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rakuhsapps.Botones;

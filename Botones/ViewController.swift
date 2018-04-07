@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var buttonOne: UIButton!
+    @IBOutlet var buttonTwo: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        buttonOne.getStyle()
+        buttonTwo.getStyle()
     }
 
     override func didReceiveMemoryWarning() {
