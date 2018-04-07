@@ -28,6 +28,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func buttonOneAction(_ sender: Any) {
+    }
+    
+    @IBAction func buttonTwoAction(_ sender: Any) {
+    }
 }
 
