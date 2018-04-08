@@ -10,4 +10,23 @@ import UIKit
 
 class ImageViewAnimations: NSObject {
     
+    func scaleView(imageView: UIImageView, withLayout: NSLayoutConstraint) {
+        
+        
+        
+        withLayout.constant += 100
+        imageView.setNeedsUpdateConstraints()
+        
+    }
+    
+    func scaleViewMin(imageView: UIImageView, withLayout: NSLayoutConstraint) {
+        
+        guard imageView.frame.size.width > UIScreen.main.bounds.width / 2 else {
+            return
+        }
+    
+        withLayout.constant -= 100
+        imageView.setNeedsUpdateConstraints()
+
+    }
 }
