@@ -62,8 +62,7 @@ class ViewController: UIViewController {
         }
         
         animations.scaleViewMin(imageView: imageViewHome, withLayout: heightImageViewConstraint)
-        
-        
+
         
         UIView.animate(withDuration: 0.2, animations: {
             
