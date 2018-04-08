@@ -25,5 +25,4 @@ extension UIImageView {
         imageView.layer.masksToBounds = true
         
     }
-    
 }

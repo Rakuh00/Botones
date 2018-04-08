@@ -14,6 +14,5 @@ class ColorsExtensions: NSObject {
     let backgroundColor = UIColor(red: 45/255, green: 58/255, blue: 64/255, alpha: 1.0)
     let specialGray = UIColor(red: 89/255, green: 116/255, blue: 127/255, alpha: 1.0)
     let semiGray = UIColor(red: 134/255, green: 173/255, blue: 191/255, alpha: 1.0)
-
 }
 

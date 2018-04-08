@@ -19,11 +19,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         let colors = ColorsExtensions ()
-        
         self.view.backgroundColor = colors.backgroundColor
         
-        imageViewHome.getStyle()
+        imageViewHome.image = UIImage(named: "blueBackground.jpg")
         
+        imageViewHome.getStyle()
         buttonOne.getStyle()
         buttonTwo.getStyle()
         
@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    //MARK: Actions Buttons
     @IBAction func buttonOneAction(_ sender: Any) {
         
         let animations = ImageViewAnimations()
@@ -63,13 +64,11 @@ class ViewController: UIViewController {
         
         animations.scaleViewMin(imageView: imageViewHome, withLayout: heightImageViewConstraint)
 
-        
         UIView.animate(withDuration: 0.2, animations: {
             
             self.view.layoutIfNeeded()
             
         }, completion: nil)
-
     }
 }
 

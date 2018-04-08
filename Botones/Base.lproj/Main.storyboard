@@ -29,7 +29,7 @@
                                     <action selector="buttonOneAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9UK-G2-rB6"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Ex-b8-gI8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Ex-b8-gI8">
                                 <rect key="frame" x="77" y="73" width="221" height="220"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="220" id="DsL-lD-nZX"/>

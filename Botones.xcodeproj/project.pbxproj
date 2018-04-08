@@ -18,6 +18,7 @@
 		8E9FEDB82079869700E302F1 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FEDB72079869700E302F1 /* ImageExtension.swift */; };
 		8E9FEDBA2079892800E302F1 /* ColorsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FEDB92079892800E302F1 /* ColorsExtensions.swift */; };
 		8E9FEDBC2079934B00E302F1 /* ImageViewAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FEDBB2079934B00E302F1 /* ImageViewAnimations.swift */; };
+		8E9FEDBF207AA91C00E302F1 /* blueBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9FEDBE207AA91C00E302F1 /* blueBackground.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		8E9FEDB72079869700E302F1 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 		8E9FEDB92079892800E302F1 /* ColorsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExtensions.swift; sourceTree = "<group>"; };
 		8E9FEDBB2079934B00E302F1 /* ImageViewAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewAnimations.swift; sourceTree = "<group>"; };
+		8E9FEDBE207AA91C00E302F1 /* blueBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueBackground.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		8E9FED8420794A3000E302F1 /* Botones */ = {
 			isa = PBXGroup;
 			children = (
+				8E9FEDBD207AA72600E302F1 /* Resources */,
 				8E9FEDB420794F1400E302F1 /* Animations */,
 				8E9FEDB320794EF900E302F1 /* Extensions */,
 				8E9FED8520794A3000E302F1 /* AppDelegate.swift */,
@@ -151,6 +154,14 @@
 				8E9FEDBB2079934B00E302F1 /* ImageViewAnimations.swift */,
 			);
 			path = Animations;
+			sourceTree = "<group>";
+		};
+		8E9FEDBD207AA72600E302F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E9FEDBE207AA91C00E302F1 /* blueBackground.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E9FED9020794A3000E302F1 /* LaunchScreen.storyboard in Resources */,
+				8E9FEDBF207AA91C00E302F1 /* blueBackground.jpg in Resources */,
 				8E9FED8D20794A3000E302F1 /* Assets.xcassets in Resources */,
 				8E9FED8B20794A3000E302F1 /* Main.storyboard in Resources */,
 			);
