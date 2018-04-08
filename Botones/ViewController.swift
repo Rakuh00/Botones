@@ -11,10 +11,17 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet var buttonOne: UIButton!
     @IBOutlet var buttonTwo: UIButton!
+    @IBOutlet var imageViewHome: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let colors = ColorsExtensions ()
+        
+        self.view.backgroundColor = colors.backgroundColor
+        
+        imageViewHome.getStyle()
         
         buttonOne.getStyle()
         buttonTwo.getStyle()
@@ -29,9 +36,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonOneAction(_ sender: Any) {
+   
     }
     
     @IBAction func buttonTwoAction(_ sender: Any) {
+
     }
 }
 

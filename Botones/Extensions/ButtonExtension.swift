@@ -17,13 +17,14 @@ extension UIButton {
     func getStyle()  {
         
         let button = self
+        let colors = ColorsExtensions()
         
-        button.backgroundColor = UIColor.lightGray
+        button.backgroundColor = colors.backgroundColor
         button.setTitleColor(UIColor.white, for: UIControlState.normal)
         
         button.layer.cornerRadius = 4.0
         button.layer.borderWidth = 1.0
-        button.layer.borderColor = UIColor.gray.cgColor
+        button.layer.borderColor = colors.lightColor.cgColor
         button.layer.masksToBounds = true
         
     }

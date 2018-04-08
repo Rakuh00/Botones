@@ -15,6 +15,9 @@
 		8E9FED9B20794A3100E302F1 /* BotonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FED9A20794A3100E302F1 /* BotonesTests.swift */; };
 		8E9FEDA620794A3100E302F1 /* BotonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FEDA520794A3100E302F1 /* BotonesUITests.swift */; };
 		8E9FEDB62079508F00E302F1 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FEDB52079508F00E302F1 /* ButtonExtension.swift */; };
+		8E9FEDB82079869700E302F1 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FEDB72079869700E302F1 /* ImageExtension.swift */; };
+		8E9FEDBA2079892800E302F1 /* ColorsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FEDB92079892800E302F1 /* ColorsExtensions.swift */; };
+		8E9FEDBC2079934B00E302F1 /* ImageViewAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FEDBB2079934B00E302F1 /* ImageViewAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		8E9FEDA520794A3100E302F1 /* BotonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotonesUITests.swift; sourceTree = "<group>"; };
 		8E9FEDA720794A3100E302F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E9FEDB52079508F00E302F1 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		8E9FEDB72079869700E302F1 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		8E9FEDB92079892800E302F1 /* ColorsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExtensions.swift; sourceTree = "<group>"; };
+		8E9FEDBB2079934B00E302F1 /* ImageViewAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				8E9FEDB52079508F00E302F1 /* ButtonExtension.swift */,
+				8E9FEDB72079869700E302F1 /* ImageExtension.swift */,
+				8E9FEDB92079892800E302F1 /* ColorsExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -140,6 +148,7 @@
 		8E9FEDB420794F1400E302F1 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				8E9FEDBB2079934B00E302F1 /* ImageViewAnimations.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -279,8 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E9FEDB62079508F00E302F1 /* ButtonExtension.swift in Sources */,
+				8E9FEDBA2079892800E302F1 /* ColorsExtensions.swift in Sources */,
 				8E9FED8820794A3000E302F1 /* ViewController.swift in Sources */,
 				8E9FED8620794A3000E302F1 /* AppDelegate.swift in Sources */,
+				8E9FEDB82079869700E302F1 /* ImageExtension.swift in Sources */,
+				8E9FEDBC2079934B00E302F1 /* ImageViewAnimations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
