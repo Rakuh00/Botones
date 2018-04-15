@@ -11,9 +11,7 @@ import UIKit
 class ImageViewAnimations: NSObject {
     
     func scaleView(imageView: UIImageView, withLayout: NSLayoutConstraint) {
-        
-        
-        
+
         withLayout.constant += 100
         imageView.setNeedsUpdateConstraints()
         

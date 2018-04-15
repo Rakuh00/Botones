@@ -19,6 +19,7 @@
 		8E9FEDBA2079892800E302F1 /* ColorsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FEDB92079892800E302F1 /* ColorsExtensions.swift */; };
 		8E9FEDBC2079934B00E302F1 /* ImageViewAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FEDBB2079934B00E302F1 /* ImageViewAnimations.swift */; };
 		8E9FEDBF207AA91C00E302F1 /* blueBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E9FEDBE207AA91C00E302F1 /* blueBackground.jpg */; };
+		8E9FEDC12082102200E302F1 /* pruebaTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E9FEDC02082102100E302F1 /* pruebaTab.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		8E9FEDB92079892800E302F1 /* ColorsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExtensions.swift; sourceTree = "<group>"; };
 		8E9FEDBB2079934B00E302F1 /* ImageViewAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewAnimations.swift; sourceTree = "<group>"; };
 		8E9FEDBE207AA91C00E302F1 /* blueBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueBackground.jpg; sourceTree = "<group>"; };
+		8E9FEDC02082102100E302F1 /* pruebaTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pruebaTab.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		8E9FEDBD207AA72600E302F1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8E9FEDC02082102100E302F1 /* pruebaTab.png */,
 				8E9FEDBE207AA91C00E302F1 /* blueBackground.jpg */,
 			);
 			path = Resources;
@@ -274,6 +277,7 @@
 				8E9FED9020794A3000E302F1 /* LaunchScreen.storyboard in Resources */,
 				8E9FEDBF207AA91C00E302F1 /* blueBackground.jpg in Resources */,
 				8E9FED8D20794A3000E302F1 /* Assets.xcassets in Resources */,
+				8E9FEDC12082102200E302F1 /* pruebaTab.png in Resources */,
 				8E9FED8B20794A3000E302F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
